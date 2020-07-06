@@ -1,0 +1,45 @@
+{
+  "name": "tribe-hook",
+  "version": "1.0.0",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle",
+    "build:doc": "dumi build",
+    "dev:doc": "dumi dev",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.9.0",
+    "@testing-library/react-hooks": "^3.3.0",
+    "@types/jest": "^25.2.2",
+    "create-test-server": "^3.0.1",
+    "dumi": "^1.0.31",
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "microbundle": "^0.12.2",
+    "mockjs": "^1.1.0",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.13.1",
+    "ts-jest": "^25.5.1",
+    "tslib": "1.10.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "umi-request": "^1.2.19"
+  }
+}

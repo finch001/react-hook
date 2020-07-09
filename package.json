@@ -8,6 +8,10 @@
   "unpkg": "dist/index.umd.js",
   "license": "MIT",
   "private": false,
+  "author": {
+    "name": "finch",
+    "email": "zheng0777@gmail.com"
+  },
   "scripts": {
     "build": "microbundle",
     "build:doc": "dumi build",
@@ -44,5 +48,8 @@
   "dependencies": {
     "ahooks": "^2.1.0",
     "umi-request": "^1.2.19"
-  }
+  },
+  "files": [
+    "src/**/*"
+  ]
 }

@@ -1,4 +1,4 @@
-import { useState } from 'React';
+import { useState } from 'react';
 import useUpdateEffect from '../useUpdateEffect';
 
 // 定义函数接口描述

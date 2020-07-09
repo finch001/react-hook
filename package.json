@@ -1,6 +1,6 @@
 {
   "name": "finch-hook",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "source": "src/index.ts",
   "description": "finch's hook demo",
   "main": "dist/index.js",

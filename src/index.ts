@@ -1,13 +1,7 @@
-import useCounter from "./useCounter";
-import useCreation from "./useCreation";
-import usePersistFn from "./usePersistFn";
-import useUpdateEffect from "./useUpdateEffect";
-import useWhyDidYouUpdate from "./useWhyDidYouUpdate";
+import useCounter from './useCounter';
+import useCreation from './useCreation';
+import usePersistFn from './usePersistFn';
+import useUpdateEffect from './useUpdateEffect';
+import useLocalStorageState from './useLocalStorageState';
 
-export {
-  useWhyDidYouUpdate,
-  useUpdateEffect,
-  usePersistFn,
-  useCreation,
-  useCounter,
-};
+export { useUpdateEffect, usePersistFn, useCreation, useCounter, useLocalStorageState };

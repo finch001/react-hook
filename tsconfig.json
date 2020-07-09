@@ -1,29 +1,22 @@
 {
-  "compilerOptions": {
-    "rootDir": "src",
-    "target": "ES6",
-    "module": "es2015",
-    "moduleResolution": "node",
-    "importHelpers": true,
-    "jsx": "react",
-    "allowJs": true,
-    "esModuleInterop": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
-    "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
-    "declaration": false
-  },
-  "exclude": [
-    "node_modules",
-    "lib",
-    "es",
-    "dist",
-    "**/__tests__",
-    "**/__test__",
-    "**/demo"
-  ]
+	"compilerOptions": {
+		"rootDir": "src",
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"importHelpers": true,
+		"jsx": "react",
+		"allowJs": true,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"allowSyntheticDefaultImports": true,
+		"skipLibCheck": true,
+		"declaration": true,
+		"declarationDir": "./dist/types"
+	},
+	"exclude": ["node_modules", "lib", "es", "dist", "**/__tests__", "**/__test__", "**/demo"]
 }

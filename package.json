@@ -4,7 +4,10 @@
   "source": "src/index.ts",
   "description": "finch's hook demo",
   "main": "dist/index.js",
-  "module": "dist/index.module.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "esmodule": "dist/index.modern.js",
+  "types": "dist/types/index.d.ts",
   "unpkg": "dist/index.umd.js",
   "license": "MIT",
   "private": false,
@@ -16,7 +19,8 @@
     "build": "microbundle",
     "build:doc": "dumi build",
     "dev:doc": "dumi dev",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "rm -rf ./dist && npm run test && npm run build"
   },
   "peerDependencies": {
     "react": "^16.8.6"
@@ -49,6 +53,10 @@
     "umi-request": "^1.2.19"
   },
   "files": [
-    "src/**/*"
+    "dist/",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "dist/types/index.d.ts"
   ]
 }

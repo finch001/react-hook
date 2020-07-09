@@ -27,7 +27,7 @@
     "create-test-server": "^3.0.1",
     "dumi": "^1.0.31",
     "husky": "^4.2.5",
-    "jest": "^26.0.1",
+    "jest": "^25.5.4",
     "microbundle": "^0.12.2",
     "mockjs": "^1.1.0",
     "prettier": "^2.0.5",

@@ -1,6 +1,6 @@
 {
   "name": "finch-hook",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "source": "src/index.ts",
   "description": "finch's hook demo",
   "main": "dist/index.js",
@@ -46,7 +46,6 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "ahooks": "^2.1.0",
     "umi-request": "^1.2.19"
   },
   "files": [

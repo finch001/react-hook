@@ -1,11 +1,13 @@
 {
-  "name": "tribe-hook",
+  "name": "finch-hook",
   "version": "1.0.0",
   "source": "src/index.ts",
+  "description": "finch's hook demo",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "build": "microbundle",
     "build:doc": "dumi build",

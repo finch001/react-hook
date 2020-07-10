@@ -1,10 +1,7 @@
 yarn.lock
 dist
-es
-lib
-.docz
+
 node_modules
-.history
 .idea
 coverage
 .doc

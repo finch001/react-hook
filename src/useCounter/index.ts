@@ -13,7 +13,7 @@ export interface Actions {
 	reset: () => void;
 }
 
-export default function useCounter(initialValue: number = 0, options: Option = {}): [number, Actions] {
+export default function useCounter(initialValue = 0, options: Option = {}): [number, Actions] {
 	const { min, max } = options;
 
 	// 返回 factor的值
@@ -47,11 +47,11 @@ export default function useCounter(initialValue: number = 0, options: Option = {
 			});
 		};
 
-		const inc = (data: number = 1) => {
+		const inc = (data = 1) => {
 			setValue((c) => c + data);
 		};
 
-		const dec = (data: number = 1) => {
+		const dec = (data = 1) => {
 			setValue((c) => c - data);
 		};
 

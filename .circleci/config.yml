@@ -20,6 +20,12 @@ jobs:
       - run:
           name: Run tests
           command: npm test
+      - run:
+          name: Run coverage
+          command: npm test:coverage
+      - run:
+          name: Run coverage upload
+          command: bash <(curl -s https://codecov.io/bash) -t $CODECOV_TOKEN
       - save_cache:
           paths:
             - node_modules

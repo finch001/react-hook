@@ -20,6 +20,7 @@
     "build:doc": "dumi build",
     "dev:doc": "dumi dev",
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "prepublishOnly": "rm -rf ./dist && npm run test && npm run build"
   },
   "peerDependencies": {

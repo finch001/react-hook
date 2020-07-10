@@ -1,6 +1,5 @@
 yarn.lock
 dist
-
 node_modules
 .idea
 coverage
@@ -9,3 +8,4 @@ coverage
 lerna-debug.log
 tsconfig.tsbuildinfo
 packages/hooks/README.md
+.vscode/

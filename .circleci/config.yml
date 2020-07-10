@@ -22,7 +22,7 @@ jobs:
           command: npm test
       - run:
           name: Run coverage
-          command: npm test:coverage
+          command: npm run test:coverage
       - run:
           name: Run coverage upload
           command: bash <(curl -s https://codecov.io/bash) -t $CODECOV_TOKEN
